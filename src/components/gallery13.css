@@ -1,0 +1,141 @@
+.gallery13-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gallery13-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gallery13-section-title {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gallery13-text10 {
+  text-align: center;
+}
+ 
+.gallery13-text11 {
+  text-align: center;
+}
+ 
+.gallery13-content {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gallery13-container1 {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.gallery13-image1 {
+  width: 100%;
+  height: 340px;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gallery13-container2 {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.gallery13-image2 {
+  width: 100%;
+  height: 340px;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gallery13-container3 {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.gallery13-image3 {
+  width: 100%;
+  height: 340px;
+  max-width: 600px;
+}
+ 
+.gallery13-text15 {
+  display: inline-block;
+}
+ 
+.gallery13-text16 {
+  display: inline-block;
+}
+ 
+.gallery13-text17 {
+  display: inline-block;
+}
+ 
+.gallery13-text18 {
+  display: inline-block;
+}
+ 
+.gallery13-text19 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .gallery13-content {
+    align-items: center;
+    flex-direction: column;
+  }
+  .gallery13-image1 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gallery13-image2 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gallery13-image3 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .gallery13-max-width {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+}
